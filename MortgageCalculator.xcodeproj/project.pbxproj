@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BDDE6229299D84E500CBE199 /* MortgageCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE6228299D84E500CBE199 /* MortgageCalculatorApp.swift */; };
-		BDDE622B299D84E500CBE199 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE622A299D84E500CBE199 /* ContentView.swift */; };
+		BDDE622B299D84E500CBE199 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE622A299D84E500CBE199 /* MainView.swift */; };
 		BDDE622D299D84E800CBE199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDE622C299D84E800CBE199 /* Assets.xcassets */; };
 		BDDE6230299D84E800CBE199 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDE622F299D84E800CBE199 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		BDDE6225299D84E500CBE199 /* MortgageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDE6228299D84E500CBE199 /* MortgageCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalculatorApp.swift; sourceTree = "<group>"; };
-		BDDE622A299D84E500CBE199 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDDE622A299D84E500CBE199 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BDDE622C299D84E800CBE199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDE622F299D84E800CBE199 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		BDDE6227299D84E500CBE199 /* MortgageCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BDDE6236299D94B600CBE199 /* Views */,
 				BDDE6228299D84E500CBE199 /* MortgageCalculatorApp.swift */,
-				BDDE622A299D84E500CBE199 /* ContentView.swift */,
 				BDDE622C299D84E800CBE199 /* Assets.xcassets */,
 				BDDE622E299D84E800CBE199 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				BDDE622F299D84E800CBE199 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDDE6236299D94B600CBE199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE622A299D84E500CBE199 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDDE622B299D84E500CBE199 /* ContentView.swift in Sources */,
+				BDDE622B299D84E500CBE199 /* MainView.swift in Sources */,
 				BDDE6229299D84E500CBE199 /* MortgageCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
