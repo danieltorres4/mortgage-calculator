@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDC6DE6F29B288860096E35A /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6DE6E29B288860096E35A /* Calculate.swift */; };
 		BDDE6229299D84E500CBE199 /* MortgageCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE6228299D84E500CBE199 /* MortgageCalculatorApp.swift */; };
 		BDDE622B299D84E500CBE199 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE622A299D84E500CBE199 /* MainView.swift */; };
 		BDDE622D299D84E800CBE199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDE622C299D84E800CBE199 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDC6DE6E29B288860096E35A /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 		BDDE6225299D84E500CBE199 /* MortgageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDE6228299D84E500CBE199 /* MortgageCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageCalculatorApp.swift; sourceTree = "<group>"; };
 		BDDE622A299D84E500CBE199 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDC6DE6D29B2887A0096E35A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDC6DE6E29B288860096E35A /* Calculate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BDDE621C299D84E500CBE199 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		BDDE6227299D84E500CBE199 /* MortgageCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BDC6DE6D29B2887A0096E35A /* Resources */,
 				BDDE6236299D94B600CBE199 /* Views */,
 				BDDE6228299D84E500CBE199 /* MortgageCalculatorApp.swift */,
 				BDDE622C299D84E800CBE199 /* Assets.xcassets */,
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC6DE6F29B288860096E35A /* Calculate.swift in Sources */,
 				BDDE622B299D84E500CBE199 /* MainView.swift in Sources */,
 				BDDE6229299D84E500CBE199 /* MortgageCalculatorApp.swift in Sources */,
 			);
